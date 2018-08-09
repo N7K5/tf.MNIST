@@ -4,8 +4,51 @@
         <title>
             test case
         </title>
+        <style>
+                .button {
+                  display: inline-block;
+                  padding: 5px 10px;
+                  cursor: pointer;
+                  text-align: center;
+                  text-decoration: none;
+                  outline: none;
+                  color: #fff;
+                  background-color: rgb(235, 102, 164);
+                  border: none;
+                  border-radius: 5px;
+                  box-shadow: 0 4px #999;
+                }
+                
+                .button:hover {background-color: #e78b6f}
+                
+                .button:active {
+                  background-color: #df2b61;
+                  box-shadow: 0 1px #666;
+                  transform: translateY(3px);
+                }
+                #result {
+                    background-color: #555;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    color:#ffdddd;
+                    position: relative;
+                    top: 3px;
+                    transform: translateY(3px);
+                    font-weight: bold;
+                }
+                #result:hover {
+                    padding: 5px;
+                    border-radius: 5px;
+                    transform: translateY(0px);
+                    box-shadow: 2px 3px #222; 
+                }
+            </style>
     </head>
     <body>
+        <button id="train" class="button">Train</button>
+        <button id="guess" class="button">Guess</button>
+        <button id="_clear" class="button">Clear</button>
+        <a id="result">Result: !!!</a><br /><br />
 
     </body>
     <script type="text/javascript" src="js/p5.js"></script>
