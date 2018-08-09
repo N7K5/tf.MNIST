@@ -1,0 +1,28 @@
+{
+  "name": "tf.mnist",
+  "version": "1.0.0",
+  "description": "A tensorflow neural net to recognize handwritten digits using mnist dataset",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N7K5/tf.MNIST.git"
+  },
+  "keywords": [
+    "mnist",
+    "handwritten",
+    "digits"
+  ],
+  "author": "Daipayan Chakder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N7K5/tf.MNIST/issues"
+  },
+  "homepage": "https://github.com/N7K5/tf.MNIST#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
